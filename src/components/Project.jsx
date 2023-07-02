@@ -1,6 +1,8 @@
+import '../styles/Project.css';
+
 function Project() {
     return (
-        <section id="project">
+        <section id="project" className="portfolio-project">
             <h2>Mes projets</h2>
         </section>
     )

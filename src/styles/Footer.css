@@ -2,7 +2,7 @@
     background-image: url('../assets/background-down.png');
     background-repeat: no-repeat;
     max-width: 1440px;
-    height: 500px;
+    height: 270px;
 }
 
 .portfolio-logo-down {
@@ -12,4 +12,5 @@
 .portfolio-bg-down img {
     width: 5%;
     margin-top: 7.3em;
+    border-radius: 50%;
 }
