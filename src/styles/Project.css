@@ -8,3 +8,36 @@
     text-align: center;
     padding: 5px;
 }
+
+.carousel-root {
+    width: 800px;
+    margin-left: 325px;
+}
+
+.carousel .carousel-slider {
+    width: 70%;
+}
+
+.carousel .thumbs {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.carousel .thumb {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.carousel .overlay {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    padding: 0.4rem 0.5rem;
+    text-align: justify;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}

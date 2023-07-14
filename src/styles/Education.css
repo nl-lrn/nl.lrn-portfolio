@@ -1,10 +1,18 @@
 .portfolio-education {
-    background-color: #f9d6fb;
+    /* background-color: #f9d6fb; */
+    background-color: #eff5fd;
+
     border-radius: 10px;
+    text-align: center;
 }
 
 .portfolio-education h2 {
     color: #672112;
     text-align: center;
     padding: 5px;
+}
+
+.portfolio-timeline {
+    text-align: center;
+    margin-left: 137px;
 }
