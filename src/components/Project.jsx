@@ -9,12 +9,13 @@ function Project() {
         <section id="project" className="portfolio-project">
             <h2>Mes projets</h2>
             <Carousel className="portfolio-project-pictures">
-                {projectsList.map(({id, cover, title, description}) => (
+                {projectsList.map(({id, cover, title, description, url}) => (
                 <div key={id}>
                     <img src={cover} alt="" />
                     <div className="overlay">
                         <span>{title}</span>
                         <p>{description}</p>
+                        <a href={url} target="_blank" rel="noreferrer">{url}</a>
                     </div>
                     
                 </div>

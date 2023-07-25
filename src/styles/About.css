@@ -1,10 +1,53 @@
-/* .portfolio-about {
-    background-color: #f9d6fb;
-    border-radius: 10px;
-} */
+.portfolio-about {
+    width: auto;
+    text-align: justify;
+    font-family: "Aleo";
+}
 
 .portfolio-about h2 {
     color: #672112;
     text-align: center;
+    font-family: "Bebas Neue";
     padding: 5px;
+}
+
+.portfolio-about-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-about-img {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-about-img img {
+    width: 25%;
+    border-radius: 75% 25% 55% 45% / 42% 32% 68% 58%;
+}
+
+.portfolio-about-details {
+    margin: 30px 60px 30px 30px;
+}
+
+.portfolio-about-details a {
+    text-decoration: none;
+    color: #672112;
+    font-family: "Bebas Neue";
+}
+
+.portfolio-about-button {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-about-button a {
+    border: 2px solid #672112;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #672112;
+    font-family: "Bebas Neue";
 }

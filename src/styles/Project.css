@@ -1,10 +1,10 @@
-/* .portfolio-project {
-    background-color: #f9d6fb;
-    border-radius: 10px;
-} */
+.portfolio-project {
+    font-family: "Aleo";
+}
 
 .portfolio-project h2 {
     color: #672112;
+    font-family: "Bebas Neue";
     text-align: center;
     padding: 5px;
 }

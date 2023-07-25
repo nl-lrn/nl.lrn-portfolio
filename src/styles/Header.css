@@ -2,9 +2,11 @@
     background-image: url('../assets/background-up.png');
     background-repeat: no-repeat;
     max-width: 1450px;
-    height: 380px;
+    height: 263px;
     display: flex;
     align-items: flex-start;
+    font-family: "Bebas Neue";
+    color: #672112;
 }
 
 .portfolio-bg-up img {
@@ -20,9 +22,11 @@
 
 .portfolio-nav {
     margin: 30px 0px;
+    font-family: "Aleo";
 }
 
 .portfolio-nav a {
     padding: 10px;
     text-decoration: none;
+    color: #672112;
 }
