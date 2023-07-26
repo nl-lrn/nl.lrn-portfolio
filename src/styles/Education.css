@@ -3,6 +3,7 @@
     border-radius: 10px;
     text-align: center;
     font-family: "Roboto Flex";
+    margin: 0 40px;
 }
 
 .portfolio-education h2 {
@@ -15,4 +16,22 @@
 .portfolio-timeline {
     text-align: center;
     margin-left: 137px;
+}
+
+.portfolio-langage {
+    display: flex;
+    padding: 20px;
+}
+
+.portfolio-education-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Bebas Neue";
+    color: #672112;
+}
+
+.portfolio-education-skills-img {
+    width: 45%;
 }
