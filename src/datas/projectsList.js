@@ -1,8 +1,8 @@
 import Booki  from '../assets/booki.png'
-import Kasa  from '../assets/kasa.png'
-import SophieBluel  from '../assets/sophiebluel.png'
-import NinaCarducci  from '../assets/ninacarducci.png'
-import Monvieuxgrimoire  from '../assets/monvieuxgrimoire.png'
+import Kasa  from '../assets/kasa.webp'
+import SophieBluel  from '../assets/sophiebluel.webp'
+import NinaCarducci  from '../assets/ninacarducci.webp'
+import Monvieuxgrimoire  from '../assets/monvieuxgrimoire.webp'
 
 export const projectsList = [
     {

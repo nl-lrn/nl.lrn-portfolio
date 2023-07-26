@@ -1,43 +1,80 @@
-.portfolio-project {
-    font-family: "Aleo";
+.portfolio-project-slider {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Roboto Flex";
+    color: #672112;
 }
 
-.portfolio-project h2 {
-    color: #672112;
+.portfolio-project-slider h2 {
     font-family: "Bebas Neue";
     text-align: center;
     padding: 5px;
 }
 
-.carousel-root {
-    width: 800px;
-    margin-left: 325px;
-}
-
-.carousel .carousel-slider {
-    width: 70%;
-}
-
-.carousel .thumbs {
+.portfolio-project-slider-images {
     display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.portfolio-project-slider-images img {
+    max-width: 100%;
+    border:#672112 2px solid;
+    object-fit: cover;
+}
+  
+.portfolio-project-slider-images div {
+    text-align: center;
 }
 
-.carousel .thumb {
+/* .portfolio-project-slider-images-div {
+    background: rgba(249, 214, 251, 0.6);
+    margin: 10px 0;
+    max-width: 800px;
+} */
+
+.portfolio-project-slider-images h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: "Bebas Neue";
+    color: #672112;
+}
+  
+.portfolio-project-slider-images p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+  
+.portfolio-project-slider-images a {
+    color: #672112;
+    text-decoration: none;
+    font-family: "Bebas Neue";
+}
+
+.portfolio-project-slider-btn-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -45px;
+}
+  
+.portfolio-project-slider-btn {
+    background-color: #f9d6fb;
+    color: #672112;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
-.carousel .overlay {
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10%;
-    padding: 0.4rem 0.5rem;
-    text-align: justify;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
+.portfolio-project-slider-btn span {
+   display: none;
 }
+  
+.portfolio-project-slider-counter {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+  

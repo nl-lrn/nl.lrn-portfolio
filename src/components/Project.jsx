@@ -1,28 +1,60 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import '../styles/Project.css';
+import { useState } from 'react';
 import { projectsList } from "../datas/projectsList";
+import '../styles/Project.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 function Project() {
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const currentProject = projectsList[currentIndex];
+
+    const goToPrevious = () => {
+        setCurrentIndex((prevIndex) =>
+            prevIndex === 0 ? projectsList.length - 1 : prevIndex - 1
+        );
+    };
+    const goToNext = () => {
+        setCurrentIndex((prevIndex) =>
+            prevIndex === projectsList.length - 1 ? 0 : prevIndex + 1
+        );
+    };
 
     return (
-        <section id="project" className="portfolio-project">
+        <section id="project" className="portfolio-project-slider">
             <h2>Mes projets</h2>
-            <Carousel className="portfolio-project-pictures">
-                {projectsList.map(({id, cover, title, description, url}) => (
-                <div key={id}>
-                    <img src={cover} alt="" />
-                    <div className="overlay">
-                        <span>{title}</span>
-                        <p>{description}</p>
-                        <a href={url} target="_blank" rel="noreferrer">{url}</a>
+            <div className="portfolio-project-slider-images">
+                <div>
+                    <img
+                        key={currentProject.id}
+                        src={currentProject.cover}
+                        alt={`Slider ${currentProject.id}`}
+                    />
+                    <div className="portfolio-project-slider-images-div">
+                        <h3>{currentProject.title}</h3>
+                        <p>{currentProject.description}</p>
+                        <a href={currentProject.url}>{currentProject.url}</a>
                     </div>
-                    
                 </div>
-                ))}
-            </Carousel>
+            </div>
+            {projectsList.length > 1 && (
+                <div className="portfolio-project-slider-btn-div">
+                    <button className="portfolio-project-slider-btn previous" onClick={goToPrevious}>
+                        <span>Précédent</span>
+                        <FontAwesomeIcon icon={faChevronLeft} />
+                    </button>
+                    <button className="portfolio-project-slider-btn next" onClick={goToNext}>
+                        <span>Suivant</span>
+                        <FontAwesomeIcon icon={faChevronRight} />
+                    </button>
+                </div>
+            )}
+            {projectsList.length > 1 && (
+                <div className="portfolio-project-slider-counter">
+                    <p>{currentIndex + 1}/{projectsList.length}</p>
+                </div>
+            )}
         </section>
-    )
+    );
 }
 
 export default Project;

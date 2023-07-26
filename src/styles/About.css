@@ -1,7 +1,7 @@
 .portfolio-about {
     width: auto;
     text-align: justify;
-    font-family: "Aleo";
+    font-family: "Roboto Flex";
 }
 
 .portfolio-about h2 {
@@ -23,7 +23,7 @@
 }
 
 .portfolio-about-img img {
-    width: 25%;
+    width: 35%;
     border-radius: 75% 25% 55% 45% / 42% 32% 68% 58%;
 }
 

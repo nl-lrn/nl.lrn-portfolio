@@ -19,12 +19,10 @@ function About() {
                     <p>Vous pouvez me contacter par mail : <a href="mailto:noel.laurine.pro@outlook.fr">noel.laurine.pro@outlook.fr</a></p>                  
                     <div className='portfolio-about-button'>
                         <a href="https://github.com/nl-lrn" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faSquareGithub} />
-                        GitHub
+                            <FontAwesomeIcon icon={faSquareGithub} /> <span>GitHub</span>
                         </a>
                         <a href="https://www.linkedin.com/in/laurine-noel/" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={faLinkedin}/>
-                        LinkedIn
+                            <FontAwesomeIcon icon={faLinkedin} /> <span>LinkedIn</span>
                         </a>
                     </div>
                 </section>
