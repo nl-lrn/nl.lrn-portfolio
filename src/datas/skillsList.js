@@ -1,11 +1,11 @@
-import html from "../assets/HTML.webp"
-import css from "../assets/CSS.webp"
-import javascript from "../assets/JS.webp"
-import seo from "../assets/SEO.webp"
-import react from "../assets/REACT.webp"
-import nodejs from "../assets/NODEJS.webp"
-import github from "../assets/GITHUB.webp"
-import notion from "../assets/notion.webp"
+import html from "../assets/langages/HTML.webp"
+import css from "../assets/langages/CSS.webp"
+import javascript from "../assets/langages/JS.webp"
+import seo from "../assets/langages/SEO.webp"
+import react from "../assets/langages/REACT.webp"
+import nodejs from "../assets/langages/NODEJS.webp"
+import github from "../assets/langages/GITHUB.webp"
+import notion from "../assets/langages/notion.webp"
 
 
 export const skillsList = [

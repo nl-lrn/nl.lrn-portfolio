@@ -1,5 +1,5 @@
 import '../styles/Footer.css';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/general/logo.jpg';
 
 function Footer() {
     return (

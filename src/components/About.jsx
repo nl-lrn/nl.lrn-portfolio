@@ -1,5 +1,5 @@
 import '../styles/About.css';
-import laurineNoel from "../assets/laurine-noel.jpeg";
+import laurineNoel from "../assets/general/laurine-noel.jpeg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
