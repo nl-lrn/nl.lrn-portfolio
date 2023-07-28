@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/nl.lrn-portfolio/static/css/main.1e139f08.css",
+    "main.js": "/nl.lrn-portfolio/static/js/main.0a092b21.js",
+    "static/media/laurine-noel.jpeg": "/nl.lrn-portfolio/static/media/laurine-noel.2bc7138208c49fc941a7.jpeg",
+    "static/media/CV.png": "/nl.lrn-portfolio/static/media/CV.5fe2a6950d12dada7f60.png",
+    "static/media/logo.jpg": "/nl.lrn-portfolio/static/media/logo.d2b2917a2cdef1ccbe4a.jpg",
+    "static/media/NODEJS.webp": "/nl.lrn-portfolio/static/media/NODEJS.f157ced94517ffccc6d3.webp",
+    "static/media/REACT.webp": "/nl.lrn-portfolio/static/media/REACT.5fa2d1b2eae9a1034980.webp",
+    "static/media/booki.webp": "/nl.lrn-portfolio/static/media/booki.f84e5db8a0743cf5e62c.webp",
+    "static/media/sophiebluel.webp": "/nl.lrn-portfolio/static/media/sophiebluel.df7b1608338fe706dd74.webp",
+    "static/media/ninacarducci.webp": "/nl.lrn-portfolio/static/media/ninacarducci.1d24f5c84da99c28f783.webp",
+    "static/media/monvieuxgrimoire.webp": "/nl.lrn-portfolio/static/media/monvieuxgrimoire.ab01e56c7f04cdfbc158.webp",
+    "static/media/kasa.webp": "/nl.lrn-portfolio/static/media/kasa.dfb03786a18cc5316ab8.webp",
+    "static/media/GITHUB.webp": "/nl.lrn-portfolio/static/media/GITHUB.a4b5c4ed1701f9525d4f.webp",
+    "static/media/notion.webp": "/nl.lrn-portfolio/static/media/notion.7d887c5b0068e33c7bf2.webp",
+    "static/media/HTML.webp": "/nl.lrn-portfolio/static/media/HTML.63c1d4a7c3cdc58d5f27.webp",
+    "static/media/CSS.webp": "/nl.lrn-portfolio/static/media/CSS.4a322767737ab717e555.webp",
+    "static/media/JS.webp": "/nl.lrn-portfolio/static/media/JS.4e35af41001b82552f48.webp",
+    "static/media/SEO.webp": "/nl.lrn-portfolio/static/media/SEO.0e8a245f9d09082716ff.webp",
+    "index.html": "/nl.lrn-portfolio/index.html",
+    "main.1e139f08.css.map": "/nl.lrn-portfolio/static/css/main.1e139f08.css.map",
+    "main.0a092b21.js.map": "/nl.lrn-portfolio/static/js/main.0a092b21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e139f08.css",
+    "static/js/main.0a092b21.js"
+  ]
+}
