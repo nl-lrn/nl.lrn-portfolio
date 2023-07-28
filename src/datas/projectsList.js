@@ -1,4 +1,4 @@
-import Booki  from '../assets/projets/booki.png'
+import Booki  from '../assets/projets/booki.webp'
 import Kasa  from '../assets/projets/kasa.webp'
 import SophieBluel  from '../assets/projets/sophiebluel.webp'
 import NinaCarducci  from '../assets/projets/ninacarducci.webp'

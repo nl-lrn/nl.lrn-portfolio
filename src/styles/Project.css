@@ -28,12 +28,6 @@
     text-align: center;
 }
 
-/* .portfolio-project-slider-images-div {
-    background: rgba(249, 214, 251, 0.6);
-    margin: 10px 0;
-    max-width: 800px;
-} */
-
 .portfolio-project-slider-images h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -59,7 +53,7 @@
 }
   
 .portfolio-project-slider-btn {
-    background-color: #f9d6fb;
+    background-color: #c9e1ff;
     color: #672112;
     border: none;
     padding: 10px 20px;

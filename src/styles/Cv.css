@@ -1,0 +1,20 @@
+.portfolio-cv {
+    color: #672112;
+    font-family: "Bebas Neue";
+    padding: 5px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.portfolio-cv h2 {
+    padding: 5px;
+}
+
+.portfolio-cv a {
+    background-color: #c9e1ff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid #672112;
+    text-decoration: none;
+    color: #672112;
+}
