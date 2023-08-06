@@ -11,7 +11,35 @@
 }
 
 .portfolio-bg-down img {
-    width: 5%;
+    width: 9%;
     margin-top: 7.3em;
     border-radius: 50%;
+}
+
+@media screen and (min-width: 820px) and (max-width: 1070px) {
+    .portfolio-bg-down img {
+        width: 11%;
+        margin-top: 6em;
+    }
+}
+
+@media screen and (min-width: 570px) and (max-width: 819px) {
+    .portfolio-bg-down img {
+        width: 17%;
+        margin-top: 6em;
+    }
+}
+
+@media screen and (min-width: 446px) and (max-width: 569px) {
+    .portfolio-bg-down img {
+        width: 20%;
+        margin-top: 6em;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .portfolio-bg-down img {
+        width: 20%;
+        margin-top: 6em;
+    }
 }

@@ -6,15 +6,22 @@
     margin: 0px 40px;
 }
 
-.portfolio-education h2 {
+.portfolio-education-h2 h2 {
     color: #672112;
     padding: 5px;
     margin: 30px 0;
 }
 
+.portfolio-education h2 {
+    color: #672112;
+    padding: 5px;
+}
+
 .portfolio-timeline {
     text-align: center;
-    margin-left: 127px;
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
 }
 
 .portfolio-langage {
@@ -37,4 +44,95 @@
 .jtAEHh {
     font-family: "Roboto Flex";
     color: #672112;
+}
+
+@media screen and (min-width: 820px) and (max-width: 1070px) {
+    .portfolio-timeline {
+        width: 75%;
+    }
+
+    .portfolio-education-skills-img {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 570px) and (max-width: 819px) {
+    .portfolio-education {
+        margin: 0px 30px;
+    }
+    .portfolio-timeline {
+        width: 85%;
+        margin-left: 4%;
+    }
+
+    .portfolio-education-skills-img {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 446px) and (max-width: 569px) {
+    .portfolio-timeline {
+        width: 89%;
+        margin-left: 0%;
+    }
+
+    .portfolio-timeline h1 {
+        line-height: normal;
+        font-size: 0.8rem;
+    }
+
+    .portfolio-timeline h2 {
+        padding: 0;
+        font-size: 0.7rem;
+        line-height: normal;
+    }
+
+    .portfolio-timeline p {
+        font-size: 0.6rem;
+        line-height: normal;
+    }
+
+    .portfolio-langage {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio-education-skills {
+        width: 155px;
+    }
+
+    .portfolio-education-skills-img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .portfolio-timeline h1 {
+        line-height: normal;
+        font-size: 0.8rem;
+    }
+
+    .portfolio-timeline h2 {
+        padding: 0;
+        font-size: 0.7rem;
+        line-height: normal;
+    }
+
+    .portfolio-timeline p {
+        font-size: 0.6rem;
+        line-height: normal;
+    }
+
+    .portfolio-langage {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio-education-skills {
+        width: 100px;
+    }
+
+    .portfolio-education-skills-img {
+        width: 55%;
+    }
 }

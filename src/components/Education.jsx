@@ -6,8 +6,8 @@ import { skillsList } from '../datas/skillsList';
 function Education() {
     return (
         <section id="education" className="portfolio-education">
-            <h2>Mes formations</h2>
-            <div className="portfolio-timeline" style={{ width: "80%", height: "100%" }}>
+            <h2 className='portfolio-education-h2'>Mes formations</h2>
+            <div className="portfolio-timeline">
                 <Chrono items={ educationsList } 
                         mode="VERTICAL_ALTERNATING"  
                         theme={{primary: '#672112', 
@@ -16,7 +16,13 @@ function Education() {
                                 titleColorActive: '#672112', 
                                 cardTitleColor: '#672112', 
                                 cardDetailedColor: '#672112'}} 
-                        hideControls='false'/>
+                        hideControls='false'
+                        fontSizes={{
+                            cardSubtitle: '0.85rem',
+                            cardText: '0.8rem',
+                            cardTitle: '1rem',
+                            title: '0.8rem',
+                          }}/>
             </div>
             <h2>Langages</h2>
             <div className='portfolio-langage'>

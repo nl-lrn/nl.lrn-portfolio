@@ -1,10 +1,11 @@
 .portfolio-bg-up {
     background-image: url('../assets/general/background-up.png');
     background-repeat: no-repeat;
-    max-width: 1450px;
-    height: 263px;
+    max-width: 1441px;
+    height: 259px;
     display: flex;
     align-items: flex-start;
+    justify-content: space-around;
     font-family: "Bebas Neue";
     color: #672112;
 }
@@ -22,11 +23,30 @@
 
 .portfolio-nav {
     margin: 30px 0px;
-    font-family: "Roboto Flex";
 }
 
 .portfolio-nav a {
-    padding: 10px;
+    margin: 10px;
     text-decoration: none;
     color: #672112;
+}
+
+@media screen and (min-width: 1027px) and (max-width: 1300px) {
+    .portfolio-nav a {
+        margin: 10px;
+        text-decoration: none;
+        color: #672112;
+    }
+}
+
+@media screen and (min-width: 779px) and (max-width: 1026px) {
+    
+}
+
+@media screen and (min-width: 550px) and (max-width: 780px) {
+    
+}
+
+@media screen and (max-width: 549px) {
+    
 }
