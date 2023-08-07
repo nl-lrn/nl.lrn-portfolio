@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/nl.lrn-portfolio/static/css/main.1d182cfd.css",
-    "main.js": "/nl.lrn-portfolio/static/js/main.7b58b8f3.js",
+    "main.js": "/nl.lrn-portfolio/static/js/main.43f2242b.js",
     "static/media/laurine-noel.jpeg": "/nl.lrn-portfolio/static/media/laurine-noel.2bc7138208c49fc941a7.jpeg",
-    "static/media/CV.png": "/nl.lrn-portfolio/static/media/CV.5fe2a6950d12dada7f60.png",
+    "static/media/CV.png": "/nl.lrn-portfolio/static/media/CV.360ebfcdbf19571acad1.png",
     "static/media/logo.jpg": "/nl.lrn-portfolio/static/media/logo.d202a0ff263af5ac1703.jpg",
     "static/media/NODEJS.webp": "/nl.lrn-portfolio/static/media/NODEJS.f157ced94517ffccc6d3.webp",
     "static/media/REACT.webp": "/nl.lrn-portfolio/static/media/REACT.5fa2d1b2eae9a1034980.webp",
@@ -20,10 +20,10 @@
     "static/media/SEO.webp": "/nl.lrn-portfolio/static/media/SEO.0e8a245f9d09082716ff.webp",
     "index.html": "/nl.lrn-portfolio/index.html",
     "main.1d182cfd.css.map": "/nl.lrn-portfolio/static/css/main.1d182cfd.css.map",
-    "main.7b58b8f3.js.map": "/nl.lrn-portfolio/static/js/main.7b58b8f3.js.map"
+    "main.43f2242b.js.map": "/nl.lrn-portfolio/static/js/main.43f2242b.js.map"
   },
   "entrypoints": [
     "static/css/main.1d182cfd.css",
-    "static/js/main.7b58b8f3.js"
+    "static/js/main.43f2242b.js"
   ]
 }
