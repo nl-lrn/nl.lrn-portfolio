@@ -6,10 +6,11 @@ function Header() {
         <section className="portfolio-bg-up">
             <div className='portfolio-logo-up'>
                 <img src={logo} alt="logo de Laurine NOËL - portfolio" />
-                <div>
+                <div className='portfolio-logo-name'>
                     <h1>Laurine NOËL</h1>
-                    <p>Portfolio</p>
+                    <span>Portfolio</span>
                 </div>
+                
             </div>
 
             <nav className='portfolio-nav'>

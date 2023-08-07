@@ -14,7 +14,8 @@ function About() {
                 </section>
                 <section className="portfolio-about-details">
                     <h3><strong>Hello ! <br/> Je suis Laurine NOËL, développeuse web</strong></h3>
-                    <p>Après avoir suivi une formation en développement web, je poursuis ma reconversion pour gagner de l'expérience professionnelle pour approfondir et améliorer mes connaissances, ainsi que mes compétences.
+                    <p>Après avoir suivi une formation en développement web, je poursuis ma reconversion afin de gagner de l'expérience professionnelle pour approfondir et améliorer mes connaissances, ainsi que mes compétences.
+                    Je souhaiterai me spécialiser dans le front-end, particulièrement React et les animations CSS.
                     Je suis également titulaire d'un Bachelor Marketing en alternance, avec une expérience de 3 ans en tant que conseillère de vente dans le prêt-à-porter.</p>
                     <p>Vous pouvez me contacter par mail : <a href="mailto:noel.laurine.pro@outlook.fr">noel.laurine.pro@outlook.fr</a></p>                  
                     <div className='portfolio-about-button'>
