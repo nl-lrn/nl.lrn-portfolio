@@ -22,6 +22,7 @@
     margin-left: 10%;
     width: 80%;
     height: 100%;
+    font-family: "Roboto Flex";
 }
 
 .portfolio-langage {
@@ -39,11 +40,6 @@
 
 .portfolio-education-skills-img {
     width: 45%;
-}
-
-.jtAEHh {
-    font-family: "Roboto Flex";
-    color: #672112;
 }
 
 @media screen and (min-width: 820px) and (max-width: 1070px) {

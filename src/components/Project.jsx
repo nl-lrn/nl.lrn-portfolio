@@ -32,7 +32,7 @@ function Project() {
                     <div className="portfolio-project-slider-images-div">
                         <h3>{currentProject.title}</h3>
                         <p>{currentProject.description}</p>
-                        <a href={currentProject.url}>{currentProject.url}</a>
+                        <a href={currentProject.url}><strong>{currentProject.url}</strong></a>
                     </div>
                 </div>
             </div>
