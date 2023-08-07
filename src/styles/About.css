@@ -18,7 +18,7 @@
 .portfolio-about-img {
     display: flex;
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 90px;
 }
 
 .portfolio-about-img img {
@@ -28,7 +28,7 @@
 
 .portfolio-about-details {
     margin: 30px 60px 30px 0px;
-    padding-left: 170px;
+    padding-left: 140px;
 }
 
 .portfolio-about-details a {
