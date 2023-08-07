@@ -41,4 +41,10 @@ export const educationsList = [
         cardDetailedText: "Implémentation d'un modèle de logique à l'aide des controllers et middleware, stockage des données et utilisations des opérations CRUD.",
         url: "https://github.com/nl-lrn/Laurine_NOEL_P7_NODEJS_MONGODB_0723"
     },
+    {
+        title: "Juin / Septembre 2021",
+        cardTitle: "Formation 3WA",
+        cardSubtitle: "Développement web, intégrateur d'application",
+        cardDetailedText: "Intégration de maquettes, gestions d'évènements. Apprentissage du HTML, CSS, JS, PHP."
+    },
 ]
