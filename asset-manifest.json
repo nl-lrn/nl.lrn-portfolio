@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/nl.lrn-portfolio/static/css/main.1e139f08.css",
-    "main.js": "/nl.lrn-portfolio/static/js/main.0a092b21.js",
+    "main.css": "/nl.lrn-portfolio/static/css/main.1d182cfd.css",
+    "main.js": "/nl.lrn-portfolio/static/js/main.7b58b8f3.js",
     "static/media/laurine-noel.jpeg": "/nl.lrn-portfolio/static/media/laurine-noel.2bc7138208c49fc941a7.jpeg",
     "static/media/CV.png": "/nl.lrn-portfolio/static/media/CV.5fe2a6950d12dada7f60.png",
-    "static/media/logo.jpg": "/nl.lrn-portfolio/static/media/logo.d2b2917a2cdef1ccbe4a.jpg",
+    "static/media/logo.jpg": "/nl.lrn-portfolio/static/media/logo.d202a0ff263af5ac1703.jpg",
     "static/media/NODEJS.webp": "/nl.lrn-portfolio/static/media/NODEJS.f157ced94517ffccc6d3.webp",
     "static/media/REACT.webp": "/nl.lrn-portfolio/static/media/REACT.5fa2d1b2eae9a1034980.webp",
     "static/media/booki.webp": "/nl.lrn-portfolio/static/media/booki.f84e5db8a0743cf5e62c.webp",
@@ -19,11 +19,11 @@
     "static/media/JS.webp": "/nl.lrn-portfolio/static/media/JS.4e35af41001b82552f48.webp",
     "static/media/SEO.webp": "/nl.lrn-portfolio/static/media/SEO.0e8a245f9d09082716ff.webp",
     "index.html": "/nl.lrn-portfolio/index.html",
-    "main.1e139f08.css.map": "/nl.lrn-portfolio/static/css/main.1e139f08.css.map",
-    "main.0a092b21.js.map": "/nl.lrn-portfolio/static/js/main.0a092b21.js.map"
+    "main.1d182cfd.css.map": "/nl.lrn-portfolio/static/css/main.1d182cfd.css.map",
+    "main.7b58b8f3.js.map": "/nl.lrn-portfolio/static/js/main.7b58b8f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e139f08.css",
-    "static/js/main.0a092b21.js"
+    "static/css/main.1d182cfd.css",
+    "static/js/main.7b58b8f3.js"
   ]
 }
