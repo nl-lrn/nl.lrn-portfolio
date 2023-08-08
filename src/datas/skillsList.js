@@ -26,6 +26,10 @@ export const skillsList = [
         icon: seo
     },
     {
+        title: "Notion",
+        icon: notion
+    },
+    {
         title: "REACT",
         icon: react
     },
@@ -36,9 +40,5 @@ export const skillsList = [
     {
         title: "GitHub",
         icon: github
-    },
-    {
-        title: "Notion",
-        icon: notion
     },
 ]

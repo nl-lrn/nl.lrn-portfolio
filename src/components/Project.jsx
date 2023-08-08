@@ -33,6 +33,7 @@ function Project() {
                         <h3>{currentProject.title}</h3>
                         <p>{currentProject.description}</p>
                         <a href={currentProject.url}><strong>{currentProject.url}</strong></a>
+                        <p>{currentProject.difficulties}</p>
                     </div>
                 </div>
             </div>
